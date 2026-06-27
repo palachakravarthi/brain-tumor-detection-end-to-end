@@ -1,47 +1,89 @@
-🧠 Brain Tumor Detection [End-to-End]
+🧠 Brain Tumor MRI Classification using Deep Learning
 
-«An End-to-End Deep Learning project for automated Brain Tumor MRI classification using TensorFlow, Keras, Custom CNN, and VGG16 Transfer Learning.»
+<p align="center"><img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/><img src="https://img.shields.io/badge/TensorFlow-2.21-orange?style=for-the-badge&logo=tensorflow"/><img src="https://img.shields.io/badge/Deep%20Learning-CNN-red?style=for-the-badge"/><img src="https://img.shields.io/badge/Status-In%20Progress-success?style=for-the-badge"/><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/></p>---
 
-"Python" (https://img.shields.io/badge/Python-3.11-blue)
-"TensorFlow" (https://img.shields.io/badge/TensorFlow-2.21-orange)
-"Deep Learning" (https://img.shields.io/badge/Deep%20Learning-CNN-red)
-"Status" (https://img.shields.io/badge/Status-In%20Progress-success)
+<p align="center">🧠 Brain Tumor MRI Classification
+
+End-to-End Deep Learning Project for Brain Tumor Detection using MRI Images
+
+Developed using TensorFlow • Keras • Python • Transfer Learning
+
+</p>---
+
+📑 Table of Contents
+
+- 📌 Project Overview
+- 🎯 Objectives
+- 🧠 Brain Tumor Classes
+- 🛠️ Technology Stack
+- 📂 Project Structure
+- 📊 Dataset
+- 📷 Outputs
+- 🚀 Installation
+- ▶️ Run Project
+- 📈 Current Progress
+- 🛣️ Future Roadmap
+- 🤝 Contributing
+- 👨‍💻 Author
+- 🙏 Acknowledgements
+- 📜 License
 
 ---
 
-📖 Project Overview
+📌 Project Overview
 
-Brain tumors are among the most life-threatening neurological disorders. Accurate and early detection using Magnetic Resonance Imaging (MRI) plays a significant role in improving diagnosis and treatment planning.
+Brain tumors are among the most life-threatening neurological disorders. Accurate diagnosis from MRI scans is essential for timely treatment.
 
-This project presents an End-to-End AI-powered Brain Tumor Detection System capable of classifying MRI images into four categories using Deep Learning techniques.
+This project focuses on building an End-to-End Brain Tumor Classification System capable of identifying four different classes of brain MRI images using Deep Learning.
 
-The project is being developed as part of the Blackbucks Internship Program.
+The current phase includes:
+
+- Dataset Analysis
+- Data Visualization
+- Dataset Validation
+- Project Structure Setup
+
+Future phases include:
+
+- Custom CNN
+- Transfer Learning
+- Model Evaluation
+- FastAPI Backend
+- Deployment
 
 ---
 
 🎯 Objectives
 
-- Develop an automated Brain Tumor Detection System.
-- Perform MRI image preprocessing and augmentation.
-- Train a Custom CNN model.
-- Improve performance using VGG16 Transfer Learning.
-- Evaluate model performance using multiple metrics.
-- Build a deployment-ready AI application.
+✅ Analyze Brain MRI Dataset
+
+✅ Visualize Class Distribution
+
+✅ Validate Dataset Integrity
+
+✅ Build Deep Learning Pipeline
+
+✅ Train CNN Models
+
+✅ Compare Transfer Learning Models
+
+✅ Deploy using FastAPI
 
 ---
 
 🧠 Brain Tumor Classes
 
-- Glioma
-- Meningioma
-- Pituitary Tumor
-- No Tumor
+Class| Description
+🟥 Glioma| Brain Tumor
+🟨 Meningioma| Brain Tumor
+🟩 No Tumor| Healthy Brain
+🟦 Pituitary| Pituitary Tumor
 
 ---
 
-🛠 Technology Stack
+🛠️ Technology Stack
 
-Programming Language
+Programming
 
 - Python 3.11
 
@@ -50,23 +92,26 @@ Deep Learning
 - TensorFlow
 - Keras
 - Custom CNN
-- VGG16 Transfer Learning
+- VGG16
+- ResNet50V2
+- EfficientNetB0
+- MobileNetV2
+
+Machine Learning
+
+- Scikit-Learn
 
 Image Processing
 
 - OpenCV
-- NumPy
 - Pillow
+- NumPy
 
-Data Analysis & Visualization
+Data Analysis
 
 - Pandas
 - Matplotlib
 - Seaborn
-
-Machine Learning
-
-- Scikit-learn
 
 Backend (Planned)
 
@@ -76,48 +121,37 @@ Database (Planned)
 
 - Supabase
 
-Frontend (Planned)
-
-- Lovable
-
 ---
 
 📂 Project Structure
 
 BrainTumorProject/
 │
-├── app/
-├── dataset/
+├── app/                      # FastAPI backend
+├── dataset/                  # MRI dataset (not uploaded)
+│   ├── Training/
+│   ├── Validation/
+│   └── Testing/
 │
-├── models/
-│
-├── notebooks/
-│
-├── outputs/
-│
+├── models/                   # Saved models
+├── notebooks/                # Jupyter notebooks
+├── outputs/                  # Generated graphs & results
 ├── scripts/
 │   └── dataset_analysis.py
-│
-├── utils/
 │
 ├── main.py
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+├── .gitignore
+└── LICENSE
 
 ---
 
 📊 Dataset
 
-Dataset Name
-
-Brain Tumor MRI Dataset
-
 Source
 
-Kaggle
-
-https://www.kaggle.com/datasets/mohiburrahmanrifat/brain-tumor-mri
+Kaggle – Brain Tumor MRI Dataset
 
 Dataset Statistics
 
@@ -127,95 +161,115 @@ Validation| 800
 Testing| 800
 Total| 7200
 
-Dataset Structure
-
-Training/
-    glioma/
-    meningioma/
-    notumor/
-    pituitary/
-
-Validation/
-    glioma/
-    meningioma/
-    notumor/
-    pituitary/
-
-Testing/
-    glioma/
-    meningioma/
-    notumor/
-    pituitary/
-
-«Note: The dataset is not included in this repository because of GitHub size limitations. Download it from Kaggle and place it inside the "dataset/" folder.»
+«Note: The dataset is not included in this repository because of GitHub file size limitations. Download it from Kaggle and place it inside the "dataset/" folder.»
 
 ---
 
-🚀 Current Progress
+📷 Outputs
 
-- ✅ Project Setup
-- ✅ Dataset Analysis
-- ✅ Dataset Visualization
-- ✅ Image Preprocessing
-- ✅ Data Augmentation
-- ⏳ Custom CNN Model
-- ⏳ VGG16 Transfer Learning
-- ⏳ Model Evaluation
-- ⏳ FastAPI Integration
-- ⏳ Supabase Integration
-- ⏳ End-to-End Deployment
+📊 Dataset Class Distribution
+
+"Class Distribution" (outputs/class_distribution.png)
 
 ---
 
-📸 Outputs
-
-Dataset Class Distribution
-
-"Dataset Class Distribution" (outputs/class_distribution.png)
-
----
-
-Sample MRI Images
+🧠 Sample MRI Images
 
 "Sample MRI Images" (outputs/sample_mri_images.png)
 
 ---
 
-Augmented MRI Images
+🖼️ MRI Dataset Visualization
 
-"Augmented MRI Images" (outputs/augmented_images.png)
+"MRI Samples" (outputs/mri_samples.png)
 
 ---
 
-⚙ Installation
+📈 Dataset Summary
 
-git clone https://github.com/palachakravarthi/Brain-Tumor-Detection-End-to-End.git
+"Dataset Summary" (outputs/dataset_summary.png)
 
-cd Brain-Tumor-Detection-End-to-End
+---
+
+📏 Image Information
+
+"Image Information" (outputs/image_information.png)
+
+---
+
+🚀 Installation
+
+Clone the repository:
+
+git clone https://github.com/palachakravarthi/BrainTumorProject.git
+
+Move into the project folder:
+
+cd BrainTumorProject
+
+Create a Conda environment:
 
 conda create -n braintumor python=3.11
 
+Activate it:
+
 conda activate braintumor
+
+Install dependencies:
 
 pip install -r requirements.txt
 
 ---
 
-▶ Run
+▶️ Run Project
+
+Run dataset analysis:
 
 python scripts/dataset_analysis.py
 
 ---
 
-📈 Future Enhancements
+📈 Current Progress
 
-- EfficientNet
+Task| Status
+Project Setup| ✅
+Dataset Analysis| ✅
+Dataset Visualization| ✅
+Image Validation| ✅
+Data Preprocessing| 🔄
+Data Augmentation| 🔄
+CNN Model| ⏳
+Transfer Learning| ⏳
+Model Evaluation| ⏳
+FastAPI API| ⏳
+Deployment| ⏳
+
+---
+
+🛣️ Future Roadmap
+
+- Custom CNN
+- VGG16
+- ResNet50V2
+- EfficientNetB0
 - MobileNetV2
 - Vision Transformer (ViT)
 - Explainable AI (Grad-CAM)
-- REST API Deployment
-- Docker Containerization
+- REST API using FastAPI
+- Docker Support
 - Cloud Deployment
+
+---
+
+🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push to your fork
+5. Open a Pull Request
 
 ---
 
@@ -223,20 +277,29 @@ python scripts/dataset_analysis.py
 
 Palachakravarthi
 
-AI • Machine Learning • Deep Learning • Data Engineering
+Senior Data Engineer | AI & Machine Learning Enthusiast
 
 GitHub: https://github.com/palachakravarthi
 
 ---
 
-⭐ Acknowledgements
+🙏 Acknowledgements
 
 - Blackbucks Internship Program
-- TensorFlow
 - Kaggle
+- TensorFlow
 - OpenCV
-- Scikit-learn
+- Scikit-Learn
+- Python Community
 
 ---
 
-«If you found this project helpful, consider giving it a ⭐ on GitHub.»
+📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">⭐ If you found this project useful, please consider giving it a Star! ⭐
+
+</p>
