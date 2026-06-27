@@ -34,6 +34,26 @@ The project includes:
 * Deployment Pipeline
 
 ---
+## 📚 Dataset
+
+This project uses the **Brain Tumor MRI Dataset** publicly available on Kaggle.
+
+### Dataset Information
+
+- **Dataset Name:** Brain Tumor MRI Dataset
+- **Source:** Kaggle
+- **Author:** Mohibur Rahman Rifat
+- **Classes:**
+  - Glioma
+  - Meningioma
+  - Pituitary
+  - No Tumor
+
+### Dataset Link
+
+🔗 https://www.kaggle.com/datasets/mohiburrahmanrifat/brain-tumor-mri
+
+> **Note:** The dataset is not included in this repository due to its size and Kaggle's distribution policy. Please download it from the official Kaggle page and place it inside the `dataset/` directory before running the project.
 
 # 🎯 Objectives
 
@@ -252,6 +272,14 @@ Contributions are welcome.
 5. Create a Pull Request
 
 ---
+## 🙏 Acknowledgements
+
+This project uses the **Brain Tumor MRI Dataset** created and shared by **Mohibur Rahman Rifat** on Kaggle.
+
+Dataset:
+https://www.kaggle.com/datasets/mohiburrahmanrifat/brain-tumor-mri
+
+Special thanks to the dataset author for making this resource publicly available for research and educational purposes.
 
 # 👨‍💻 Author
 
