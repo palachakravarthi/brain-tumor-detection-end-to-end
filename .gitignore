@@ -2,7 +2,6 @@ __pycache__/
 *.pyc
 .env
 .vscode/
-outputs/
 models/*.h5
 models/*.keras
 models/*.ckpt
