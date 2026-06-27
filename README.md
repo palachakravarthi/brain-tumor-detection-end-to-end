@@ -129,9 +129,7 @@ BrainTumorProject
 ├── outputs
 │   ├── class_distribution.png
 │   ├── sample_mri_images.png
-│   ├── mri_samples.png
-│   ├── dataset_summary.png
-│   └── image_information.png
+│   ├── augemented_images.png
 │
 ├── scripts
 │   └── dataset_analysis.py
@@ -265,7 +263,7 @@ B.Tech Computer Science & Engineering
 
 AI • Machine Learning • Deep Learning
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/palachakravarthi
 
 ---
 
