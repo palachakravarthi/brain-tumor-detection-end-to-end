@@ -174,7 +174,7 @@ BrainTumorProject
 
 ```bash
 # Clone Repository
-git clone https://github.com/yourusername/BrainTumorProject.git
+git clone https://github.com/palachakravarthi/BrainTumorProject.git
 
 # Move to Project Directory
 cd BrainTumorProject
