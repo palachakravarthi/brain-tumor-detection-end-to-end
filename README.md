@@ -122,8 +122,6 @@ BrainTumorProject
 │   ├── Validation
 │   └── Testing
 │
-├── notebooks
-│
 ├── models
 │
 ├── outputs
@@ -174,7 +172,7 @@ BrainTumorProject
 
 ```bash
 # Clone Repository
-git clone https://github.com/palachakravarthi/BrainTumorProject.git
+git clone https://github.com/palachakravarthi/brain-tumor-detection-end-to-end.git
 
 # Move to Project Directory
 cd BrainTumorProject
