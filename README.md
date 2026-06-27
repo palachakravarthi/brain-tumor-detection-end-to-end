@@ -1,305 +1,284 @@
-🧠 Brain Tumor MRI Classification using Deep Learning
 
-<p align="center"><img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/><img src="https://img.shields.io/badge/TensorFlow-2.21-orange?style=for-the-badge&logo=tensorflow"/><img src="https://img.shields.io/badge/Deep%20Learning-CNN-red?style=for-the-badge"/><img src="https://img.shields.io/badge/Status-In%20Progress-success?style=for-the-badge"/><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/></p>---
+# 🧠 Brain Tumor MRI Classification using Deep Learning
 
-<p align="center">🧠 Brain Tumor MRI Classification
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=25&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Brain+Tumor+MRI+Classification;Deep+Learning+for+Medical+Imaging;TensorFlow+%7C+CNN+%7C+Transfer+Learning;End-to-End+AI+Project" />
+</p>
 
-End-to-End Deep Learning Project for Brain Tumor Detection using MRI Images
+<p align="center">
 
-Developed using TensorFlow • Keras • Python • Transfer Learning
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge\&logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=for-the-badge\&logo=tensorflow)
+![OpenCV](https://img.shields.io/badge/OpenCV-ComputerVision-green?style=for-the-badge\&logo=opencv)
+![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-</p>---
-
-📑 Table of Contents
-
-- 📌 Project Overview
-- 🎯 Objectives
-- 🧠 Brain Tumor Classes
-- 🛠️ Technology Stack
-- 📂 Project Structure
-- 📊 Dataset
-- 📷 Outputs
-- 🚀 Installation
-- ▶️ Run Project
-- 📈 Current Progress
-- 🛣️ Future Roadmap
-- 🤝 Contributing
-- 👨‍💻 Author
-- 🙏 Acknowledgements
-- 📜 License
+</p>
 
 ---
 
-📌 Project Overview
+# 📌 Project Overview
 
-Brain tumors are among the most life-threatening neurological disorders. Accurate diagnosis from MRI scans is essential for timely treatment.
+This project focuses on automatic brain tumor classification using MRI scans and Deep Learning techniques.
 
-This project focuses on building an End-to-End Brain Tumor Classification System capable of identifying four different classes of brain MRI images using Deep Learning.
+The goal is to assist healthcare professionals by providing an AI-powered system capable of identifying different tumor categories from MRI images.
 
-The current phase includes:
+The project includes:
 
-- Dataset Analysis
-- Data Visualization
-- Dataset Validation
-- Project Structure Setup
-
-Future phases include:
-
-- Custom CNN
-- Transfer Learning
-- Model Evaluation
-- FastAPI Backend
-- Deployment
+* Dataset Analysis
+* Image Visualization
+* Data Preprocessing
+* CNN Model Development
+* Transfer Learning
+* Model Evaluation
+* Deployment Pipeline
 
 ---
 
-🎯 Objectives
+# 🎯 Objectives
 
-✅ Analyze Brain MRI Dataset
-
-✅ Visualize Class Distribution
-
-✅ Validate Dataset Integrity
-
-✅ Build Deep Learning Pipeline
-
-✅ Train CNN Models
-
-✅ Compare Transfer Learning Models
-
-✅ Deploy using FastAPI
+* Analyze MRI brain tumor dataset
+* Understand class distribution
+* Perform image preprocessing
+* Train CNN-based models
+* Improve performance using Transfer Learning
+* Evaluate model accuracy
+* Build an end-to-end deployment-ready solution
 
 ---
 
-🧠 Brain Tumor Classes
+# 🧬 Brain Tumor Classes
 
-Class| Description
-🟥 Glioma| Brain Tumor
-🟨 Meningioma| Brain Tumor
-🟩 No Tumor| Healthy Brain
-🟦 Pituitary| Pituitary Tumor
+| Class      | Description                            |
+| ---------- | -------------------------------------- |
+| Glioma     | Tumor originating in brain glial cells |
+| Meningioma | Tumor arising from meninges            |
+| Pituitary  | Tumor affecting pituitary gland        |
+| No Tumor   | Healthy MRI image                      |
 
 ---
 
-🛠️ Technology Stack
+# ✨ Features
 
-Programming
+✅ Dataset Analysis
 
-- Python 3.11
+✅ MRI Visualization
 
-Deep Learning
+✅ Class Distribution Analysis
 
-- TensorFlow
-- Keras
-- Custom CNN
-- VGG16
-- ResNet50V2
-- EfficientNetB0
-- MobileNetV2
+✅ Data Validation
 
-Machine Learning
+✅ Data Preprocessing
 
-- Scikit-Learn
+✅ CNN Training Pipeline
 
-Image Processing
+✅ Transfer Learning Support
 
-- OpenCV
-- Pillow
-- NumPy
+✅ Evaluation Metrics
 
+✅ Model Saving & Loading
+
+✅ Deployment Ready
+
+---
+
+# 🏗️ Project Architecture
+
+```text
+MRI Dataset
+      │
+      ▼
 Data Analysis
+      │
+      ▼
+Preprocessing
+      │
+      ▼
+CNN Model
+      │
+      ▼
+Transfer Learning
+      │
+      ▼
+Evaluation
+      │
+      ▼
+Prediction
+      │
+      ▼
+Deployment
+```
 
-- Pandas
-- Matplotlib
-- Seaborn
+# 📂 Project Structure
 
-Backend (Planned)
-
-- FastAPI
-
-Database (Planned)
-
-- Supabase
-
----
-
-📂 Project Structure
-
-BrainTumorProject/
+```text
+BrainTumorProject
 │
-├── app/                      # FastAPI backend
-├── dataset/                  # MRI dataset (not uploaded)
-│   ├── Training/
-│   ├── Validation/
-│   └── Testing/
+├── app
+│   └── main.py
 │
-├── models/                   # Saved models
-├── notebooks/                # Jupyter notebooks
-├── outputs/                  # Generated graphs & results
-├── scripts/
+├── dataset
+│   ├── Training
+│   ├── Validation
+│   └── Testing
+│
+├── notebooks
+│
+├── models
+│
+├── outputs
+│   ├── class_distribution.png
+│   ├── sample_mri_images.png
+│   ├── mri_samples.png
+│   ├── dataset_summary.png
+│   └── image_information.png
+│
+├── scripts
 │   └── dataset_analysis.py
 │
-├── main.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
 └── LICENSE
+```
+
+# 📊 Dataset Statistics
+
+| Property     | Value                      |
+| ------------ | -------------------------- |
+| Dataset Type | MRI Images                 |
+| Classes      | 4                          |
+| Image Format | JPG / PNG                  |
+| Domain       | Medical Imaging            |
+| Task         | Multi-Class Classification |
 
 ---
 
-📊 Dataset
+# 🛠️ Tech Stack
 
-Source
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,git,github,vscode" />
+</p>
 
-Kaggle – Brain Tumor MRI Dataset
+### Libraries Used
 
-Dataset Statistics
-
-Dataset| Images
-Training| 5600
-Validation| 800
-Testing| 800
-Total| 7200
-
-«Note: The dataset is not included in this repository because of GitHub file size limitations. Download it from Kaggle and place it inside the "dataset/" folder.»
-
----
-
-📷 Outputs
-
-📊 Dataset Class Distribution
-
-"Class Distribution" (outputs/class_distribution.png)
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* OpenCV
+* TensorFlow
+* Keras
+* Scikit-Learn
 
 ---
 
-🧠 Sample MRI Images
+# 🚀 Installation
 
-"Sample MRI Images" (outputs/sample_mri_images.png)
+```bash
+# Clone Repository
+git clone https://github.com/yourusername/BrainTumorProject.git
 
----
-
-🖼️ MRI Dataset Visualization
-
-"MRI Samples" (outputs/mri_samples.png)
-
----
-
-📈 Dataset Summary
-
-"Dataset Summary" (outputs/dataset_summary.png)
-
----
-
-📏 Image Information
-
-"Image Information" (outputs/image_information.png)
-
----
-
-🚀 Installation
-
-Clone the repository:
-
-git clone https://github.com/palachakravarthi/BrainTumorProject.git
-
-Move into the project folder:
-
+# Move to Project Directory
 cd BrainTumorProject
 
-Create a Conda environment:
-
+# Create Environment
 conda create -n braintumor python=3.11
 
-Activate it:
-
+# Activate Environment
 conda activate braintumor
 
-Install dependencies:
-
+# Install Dependencies
 pip install -r requirements.txt
+```
 
 ---
 
-▶️ Run Project
+# ▶️ Run Dataset Analysis
 
-Run dataset analysis:
-
+```bash
 python scripts/dataset_analysis.py
+```
 
 ---
 
-📈 Current Progress
+# 📷 Output Gallery
 
-Task| Status
-Project Setup| ✅
-Dataset Analysis| ✅
-Dataset Visualization| ✅
-Image Validation| ✅
-Data Preprocessing| 🔄
-Data Augmentation| 🔄
-CNN Model| ⏳
-Transfer Learning| ⏳
-Model Evaluation| ⏳
-FastAPI API| ⏳
-Deployment| ⏳
+## Class Distribution
 
----
+<img src="outputs/class_distribution.png" width="900">
 
-🛣️ Future Roadmap
+## Sample MRI Images
 
-- Custom CNN
-- VGG16
-- ResNet50V2
-- EfficientNetB0
-- MobileNetV2
-- Vision Transformer (ViT)
-- Explainable AI (Grad-CAM)
-- REST API using FastAPI
-- Docker Support
-- Cloud Deployment
+<img src="outputs/sample_mri_images.png" width="900">
+
+## MRI Samples
+
+<img src="outputs/augmented_images.png" width="900">
 
 ---
 
-🤝 Contributing
+# 📈 Project Progress
 
-Contributions, suggestions, and improvements are welcome.
+| Module             | Status         |
+| ------------------ | -------------- |
+| Project Setup      | ✅ Completed    |
+| Dataset Analysis   | ✅ Completed    |
+| Visualization      | ✅ Completed    |
+| Data Validation    | ✅ Completed    |
+| Data Preprocessing | 🔄 In Progress |
+| CNN Model          | 🔄 In Progress |
+| Transfer Learning  | ⏳ Planned      |
+| Deployment         | ⏳ Planned      |
+
+---
+
+# 🔬 Future Enhancements
+
+* Advanced Data Augmentation
+* EfficientNet Training
+* Vision Transformer Models
+* Explainable AI (Grad-CAM)
+* FastAPI Backend
+* Streamlit Dashboard
+* Docker Deployment
+* Cloud Deployment
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
 
 1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Push to your fork
-5. Open a Pull Request
+2. Create a feature branch
+3. Commit changes
+4. Push changes
+5. Create a Pull Request
 
 ---
 
-👨‍💻 Author
+# 👨‍💻 Author
 
-Palachakravarthi
+**Uppu Palachakravarthi**
 
-Senior Data Engineer | AI & Machine Learning Enthusiast
+B.Tech Computer Science & Engineering
 
-GitHub: https://github.com/palachakravarthi
+AI • Machine Learning • Deep Learning
 
----
-
-🙏 Acknowledgements
-
-- Blackbucks Internship Program
-- Kaggle
-- TensorFlow
-- OpenCV
-- Scikit-Learn
-- Python Community
+GitHub: https://github.com/yourusername
 
 ---
 
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License.
 
 ---
 
-<p align="center">⭐ If you found this project useful, please consider giving it a Star! ⭐
+<p align="center">
+⭐ If you found this project useful, please consider giving it a star.
+</p>
 
+<p align="center">
+Made with ❤️ by Uppu Palachakravarthi
 </p>
