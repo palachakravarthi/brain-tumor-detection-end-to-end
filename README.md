@@ -405,19 +405,39 @@ BrainTumorProject
 </p>
 
 ---
+## 🧠 Deep Learning Models
 
-# 🧠 Deep Learning Models
-
-This project implements two deep learning models for Brain MRI classification.
+This project implements and compares two deep learning models for multi-class Brain MRI tumor classification.
 
 | Model | Accuracy | Precision | Recall | F1-Score | Status |
-|-------|---------:|----------:|-------:|---------:|--------|
-| Custom CNN | XX.XX% | XX.XX% | XX.XX% | XX.XX% | 📊 Comparison Model |
-| VGG16 Transfer Learning | XX.XX% | XX.XX% | XX.XX% | XX.XX% | ✅ Final Deployed Model |
+|-------|---------:|----------:|--------:|---------:|--------|
+| Custom CNN | 62.75% | 68% | 63% | 62% | 📊 Baseline Model |
+| VGG16 Transfer Learning | 94.50% | 95% | 94% | 94% | ✅ Final Model |
 
-### 🏆 Final Model Selection
+---
 
-The **VGG16 Transfer Learning** model was selected as the final deployment model because it achieved the best overall performance and is used by the NeuroScan AI application for all MRI predictions.
+## 🏆 Final Model Selection
+
+The **VGG16 Transfer Learning** model was selected as the final model because it significantly outperformed the Custom CNN across all evaluation metrics.
+
+### Model Comparison
+
+| Metric | Custom CNN | VGG16 |
+|--------|-----------:|-------:|
+| Accuracy | **62.75%** | **94.50%** |
+| Loss | **1.1326** | **0.3915** |
+| Precision | **68%** | **95%** |
+| Recall | **63%** | **94%** |
+| F1-Score | **62%** | **94%** |
+
+### Why VGG16?
+
+- ✅ Highest Accuracy (94.50%)
+- ✅ Lowest Loss (0.3915)
+- ✅ Excellent Precision, Recall, and F1-Score
+- ✅ Strong performance across all four tumor classes
+- ✅ Selected as the production model for Brain MRI classification
+
 <p align="center">
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=for-the-badge&logo=tensorflow)
@@ -427,7 +447,7 @@ The **VGG16 Transfer Learning** model was selected as the final deployment model
 
 </p>
 
-> **Final deployed model:** **Custom CNN**
+> **Final Deployed Model:** 🧠 **VGG16 Transfer Learning**
 
 # 🏥 Tumor Categories
 
@@ -580,22 +600,6 @@ Frontend:
 http://localhost:8081
 ```
 
----
-
-# 📈 Project Progress
-
-| Module             | Status         |
-| ------------------ | -------------- |
-| Project Setup      | ✅ Completed    |
-| Dataset Analysis   | ✅ Completed    |
-| Visualization      | ✅ Completed    |
-| Data Validation    | ✅ Completed    |
-| Data Preprocessing | 🔄 In Progress |
-| CNN Model          | 🔄 In Progress |
-| Transfer Learning  | ⏳ Planned      |
-| Deployment         | ⏳ Planned      |
-
----
 
 # 🔬 Future Enhancements
 
