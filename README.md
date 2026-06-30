@@ -598,20 +598,6 @@ Frontend:
 
 ```
 http://localhost:8081
-```
-
-
-# 🔬 Future Enhancements
-
-* Advanced Data Augmentation
-* EfficientNet Training
-* Vision Transformer Models
-* Explainable AI (Grad-CAM)
-* FastAPI Backend
-* Streamlit Dashboard
-* Docker Deployment
-* Cloud Deployment
-
 ---
 
 # 🤝 Contributing
