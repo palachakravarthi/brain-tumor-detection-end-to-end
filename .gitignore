@@ -1,9 +1,68 @@
+# ==========================
+# Python
+# ==========================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# ==========================
+# Virtual Environments
+# ==========================
 .env
+.venv/
+venv/
+env/
+
+# ==========================
+# VS Code
+# ==========================
 .vscode/
-models/*.h5
-models/*.keras
-models/*.ckpt
+
+# ==========================
+# Jupyter
+# ==========================
 .ipynb_checkpoints/
+
+# ==========================
+# Dataset
+# ==========================
 dataset/
+
+# ==========================
+# Trained Models
+# (Too large for GitHub)
+# ==========================
+models/*.keras
+models/*.h5
+models/*.ckpt
+models/*.weights.h5
+
+# ==========================
+# Python Cache
+# ==========================
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Frontend Build Files
+# ==========================
+frontend/brain-tumor/node_modules/
+frontend/brain-tumor/dist/
+frontend/brain-tumor/.tanstack/tmp/
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp

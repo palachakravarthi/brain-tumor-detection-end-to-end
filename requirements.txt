@@ -10,6 +10,7 @@ h5py>=3.14
 
 fastapi>=0.115
 uvicorn>=0.30
+python-multipart>=0.0.9
 supabase>=2.31
 python-dotenv>=1.0
 
@@ -18,3 +19,4 @@ notebook>=7.0
 ipykernel>=6.29
 
 tqdm>=4.67
+reportlab>=4.0

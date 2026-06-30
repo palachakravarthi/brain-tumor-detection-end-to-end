@@ -1,17 +1,22 @@
-
-# 🧠 Brain Tumor MRI Classification using Deep Learning
+# 🧠 Brain Tumor Detection using Deep Learning
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=25&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Brain+Tumor+MRI+Classification;Deep+Learning+for+Medical+Imaging;TensorFlow+%7C+CNN+%7C+Transfer+Learning;End-to-End+AI+Project" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Brain+Tumor+Detection+using+Deep+Learning;End-to-End+AI+Powered+Medical+Imaging+System;React+%7C+FastAPI+%7C+TensorFlow+%7C+Supabase;Custom+CNN+for+Brain+MRI+Classification" />
+
 </p>
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge\&logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=for-the-badge\&logo=tensorflow)
-![OpenCV](https://img.shields.io/badge/OpenCV-ComputerVision-green?style=for-the-badge\&logo=opencv)
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=for-the-badge&logo=tensorflow)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-Programming-3178C6?style=for-the-badge&logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-UI-38BDF8?style=for-the-badge&logo=tailwindcss)
+![Supabase](https://img.shields.io/badge/Supabase-Database-3ECF8E?style=for-the-badge&logo=supabase)
 ![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 </p>
 
@@ -19,19 +24,22 @@
 
 # 📌 Project Overview
 
-This project focuses on automatic brain tumor classification using MRI scans and Deep Learning techniques.
+Brain Tumor Detection using Deep Learning is a complete **end-to-end Artificial Intelligence web application** developed to classify brain MRI scans into four categories using a **Custom Convolutional Neural Network (Custom CNN)**.
 
-The goal is to assist healthcare professionals by providing an AI-powered system capable of identifying different tumor categories from MRI images.
+The project combines **Machine Learning**, **Computer Vision**, **FastAPI**, **React**, and **Supabase** to deliver an intelligent medical imaging solution capable of performing real-time brain tumor prediction through an interactive web interface.
 
-The project includes:
+This project demonstrates the complete lifecycle of an AI application, including:
 
-* Dataset Analysis
-* Image Visualization
-* Data Preprocessing
-* CNN Model Development
-* Transfer Learning
-* Model Evaluation
-* Deployment Pipeline
+- Dataset Analysis
+- Data Preprocessing
+- Deep Learning Model Development
+- Model Evaluation
+- REST API Development
+- Modern React Frontend
+- Database Integration
+- Prediction History
+- Dashboard Analytics
+- PDF Report Generation
 
 ---
 ## 📚 Dataset
@@ -57,179 +65,520 @@ This project uses the **Brain Tumor MRI Dataset** publicly available on Kaggle.
 
 # 🎯 Objectives
 
-* Analyze MRI brain tumor dataset
-* Understand class distribution
-* Perform image preprocessing
-* Train CNN-based models
-* Improve performance using Transfer Learning
-* Evaluate model accuracy
-* Build an end-to-end deployment-ready solution
+The primary objectives of this project are:
+
+- Detect brain tumors from MRI images using Deep Learning.
+- Build a complete AI-powered medical imaging application.
+- Develop a responsive frontend for real-time prediction.
+- Integrate FastAPI for serving AI predictions.
+- Store prediction history using Supabase.
+- Visualize prediction statistics through dashboards.
+- Generate downloadable PDF prediction reports.
+- Create a production-ready AI project suitable for deployment.
 
 ---
 
 # 🧬 Brain Tumor Classes
 
-| Class      | Description                            |
-| ---------- | -------------------------------------- |
-| Glioma     | Tumor originating in brain glial cells |
-| Meningioma | Tumor arising from meninges            |
-| Pituitary  | Tumor affecting pituitary gland        |
-| No Tumor   | Healthy MRI image                      |
+| Class | Description |
+|--------|-------------|
+| 🧠 Glioma | Tumor originating from glial cells in the brain |
+| 🧠 Meningioma | Tumor arising from the meninges surrounding the brain |
+| 🧠 Pituitary | Tumor affecting the pituitary gland |
+| ✅ No Tumor | Healthy brain MRI without tumor |
 
 ---
 
 # ✨ Features
 
-✅ Dataset Analysis
+### 🤖 Artificial Intelligence
 
-✅ MRI Visualization
-
-✅ Class Distribution Analysis
-
-✅ Data Validation
-
-✅ Data Preprocessing
-
-✅ CNN Training Pipeline
-
-✅ Transfer Learning Support
-
-✅ Evaluation Metrics
-
-✅ Model Saving & Loading
-
-✅ Deployment Ready
+- ✅ Custom CNN Brain Tumor Classifier
+- ✅ MRI Image Classification
+- ✅ Multi-Class Prediction
+- ✅ Confidence Score
+- ✅ AI Generated Explanation
+- ✅ Medical Recommendation
 
 ---
 
-# 🏗️ Project Architecture
+### 🌐 Web Application
+
+- ✅ Modern React Frontend
+- ✅ FastAPI REST Backend
+- ✅ Responsive UI
+- ✅ Dark Mode
+- ✅ MRI Image Upload
+- ✅ Drag & Drop Support
+- ✅ Real-Time Prediction
+
+---
+
+### 📊 Dashboard
+
+- ✅ Prediction History
+- ✅ Dashboard Analytics
+- ✅ Tumor Statistics
+- ✅ Charts & Graphs
+- ✅ Model Performance Page
+
+---
+
+### 🗄 Database
+
+- ✅ Supabase Integration
+- ✅ Prediction Storage
+- ✅ Automatic History Logging
+
+---
+
+### 📄 Reports
+
+- ✅ PDF Report Generation
+- ✅ Download Prediction Report
+- ✅ Confidence Report
+- ✅ AI Explanation Report
+
+---
+
+# 🏥 Application Workflow
 
 ```text
-MRI Dataset
-      │
-      ▼
-Data Analysis
-      │
-      ▼
-Preprocessing
-      │
-      ▼
-CNN Model
-      │
-      ▼
-Transfer Learning
-      │
-      ▼
-Evaluation
-      │
-      ▼
-Prediction
-      │
-      ▼
-Deployment
+                     Brain MRI Scan
+                            │
+                            ▼
+                  Upload through React UI
+                            │
+                            ▼
+                  FastAPI Prediction API
+                            │
+                            ▼
+              Image Preprocessing (224×224)
+                            │
+                            ▼
+               Custom CNN Deep Learning Model
+                            │
+                            ▼
+          Tumor Prediction + Confidence Score
+                            │
+                            ▼
+             AI Explanation & Recommendation
+                            │
+                            ▼
+             Store Prediction in Supabase
+                            │
+                            ▼
+      Dashboard • History • PDF Report • Analytics
 ```
 
+---
+
+# 📸 Application Screenshots
+
+## 🏠 Home Page & Upload Page
+
+<table>
+<tr>
+<td align="center">
+
+<img src="outputs/home_page.png" width="450">
+
+<b>Home Page</b>
+
+</td>
+
+<td align="center">
+
+<img src="outputs/upload_page.png" width="450">
+
+<b>Upload MRI</b>
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## 🧠 Prediction Results
+
+<table>
+
+<tr>
+
+<td align="center">
+
+<img src="outputs/glioma_prediction.png" width="450">
+
+<b>Glioma Prediction</b>
+
+</td>
+
+<td align="center">
+
+<img src="outputs/meningioma_prediction.png" width="450">
+
+<b>Meningioma Prediction</b>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+
+<img src="outputs/pituitary_prediction.png" width="450">
+
+<b>Pituitary Prediction</b>
+
+</td>
+
+<td align="center">
+
+<img src="outputs/no_tumor_prediction.png" width="450">
+
+<b>No Tumor Prediction</b>
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## 📊 Dashboard & Prediction History
+
+<table>
+
+<tr>
+
+<td align="center">
+
+<img src="outputs/dashboard.png" width="450">
+
+<b>Dashboard</b>
+
+</td>
+
+<td align="center">
+
+<img src="outputs/history.png" width="450">
+
+<b>Prediction History</b>
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## 📈 Model Performance & PDF Report
+
+<table>
+
+<tr>
+
+<td align="center">
+
+<img src="outputs/model_performance.png" width="450">
+
+<b>Model Performance</b>
+
+</td>
+
+<td align="center">
+
+<img src="outputs/pdf_report.png" width="450">
+
+<b>Generated PDF Report</b>
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# ⭐ Project Highlights
+
+- 🧠 End-to-End AI Web Application
+- 🤖 Deep Learning based Brain MRI Classification
+- 🌐 Modern React + TypeScript Frontend
+- ⚡ FastAPI REST API Backend
+- 🗄 Supabase Database Integration
+- 📊 Interactive Dashboard
+- 📜 Prediction History
+- 📄 PDF Report Generation
+- 🌙 Dark Mode Support
+- 📱 Fully Responsive Design
+- 🚀 Production Ready Architecture
+
+---
 # 📂 Project Structure
 
 ```text
 BrainTumorProject
 │
-├── app
-│   └── main.py
+├── .vscode/
 │
-├── dataset
-│   ├── Training
-│   ├── Validation
-│   └── Testing
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── main.py
+│   ├── predict.py
+│   ├── routes.py
+│   └── supabase_client.py
 │
-├── models
+├── dataset/
+│   ├── Training/
+│   ├── Testing/
+│   └── Validation/
 │
-├── outputs
+├── docs/
+│
+├── frontend/
+│   └── brain-tumor/
+│       ├── src/
+│       │   ├── assets/
+│       │   ├── components/
+│       │   │   ├── brain/
+│       │   │   └── ui/
+│       │   ├── hooks/
+│       │   ├── lib/
+│       │   ├── routes/
+│       │   ├── router.tsx
+│       │   ├── routeTree.gen.ts
+│       │   ├── server.ts
+│       │   ├── start.ts
+│       │   └── styles.css
+│       │
+│       ├── package.json
+│       ├── vite.config.ts
+│       ├── components.json
+│       └── tsconfig.json
+│
+├── models/
+│   ├── custom_cnn.py
+│   ├── custom_cnn.keras
+│   ├── custom_cnn_final.keras
+│   ├── vgg16_model.py
+│   ├── vgg16_finetuned.keras
+│   └── best_vgg.keras
+│
+├── notebooks/
+│   └── VGG16.ipynb
+│
+├── outputs/
+│   ├── accuracy.png
+│   ├── loss.png
 │   ├── class_distribution.png
 │   ├── sample_mri_images.png
-│   ├── augemented_images.png
+│   ├── augmented_images.png
+│   ├── custom_cnn_confusion_matrix.png
+│   ├── vgg16_accuracy.png
+│   ├── vgg16_loss.png
+│   └── vgg16_confusion_matrix.png
 │
-├── scripts
-│   └── dataset_analysis.py
+├── scripts/
+│   ├── dataset_analysis.py
+│   ├── train.py
+│   └── preprocess.py
 │
 ├── requirements.txt
 ├── README.md
 └── LICENSE
 ```
 
-# 📊 Dataset Statistics
+---
 
-| Property     | Value                      |
-| ------------ | -------------------------- |
-| Dataset Type | MRI Images                 |
-| Classes      | 4                          |
-| Image Format | JPG / PNG                  |
-| Domain       | Medical Imaging            |
-| Task         | Multi-Class Classification |
+# 🛠️ Technology Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,tensorflow,fastapi,react,typescript,tailwind,supabase,opencv,git,github,vscode" />
+
+</p>
 
 ---
 
-# 🛠️ Tech Stack
+# 🧠 Deep Learning Models
 
+This project implements two deep learning models for Brain MRI classification.
+
+| Model | Accuracy | Precision | Recall | F1-Score | Status |
+|-------|---------:|----------:|-------:|---------:|--------|
+| Custom CNN | XX.XX% | XX.XX% | XX.XX% | XX.XX% | 📊 Comparison Model |
+| VGG16 Transfer Learning | XX.XX% | XX.XX% | XX.XX% | XX.XX% | ✅ Final Deployed Model |
+
+### 🏆 Final Model Selection
+
+The **VGG16 Transfer Learning** model was selected as the final deployment model because it achieved the best overall performance and is used by the NeuroScan AI application for all MRI predictions.
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,git,github,vscode" />
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=for-the-badge&logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-NeuralNetwork-red?style=for-the-badge&logo=keras)
+![Custom CNN](https://img.shields.io/badge/Model-Custom_CNN-success?style=for-the-badge)
+![VGG16](https://img.shields.io/badge/Transfer-VGG16-blue?style=for-the-badge)
+
 </p>
 
-### Libraries Used
+> **Final deployed model:** **Custom CNN**
 
-* NumPy
-* Pandas
-* Matplotlib
-* Seaborn
-* OpenCV
-* TensorFlow
-* Keras
-* Scikit-Learn
+# 🏥 Tumor Categories
+
+| Class | Description |
+|-------|-------------|
+| Glioma | Tumor arising from glial cells |
+| Meningioma | Tumor originating from meninges |
+| Pituitary | Tumor affecting pituitary gland |
+| No Tumor | Healthy MRI Scan |
+
+---
+
+# ⚙ Backend (FastAPI)
+
+The backend is responsible for:
+
+- Receiving uploaded MRI images
+- Image preprocessing
+- Loading trained CNN model
+- Running prediction
+- Returning confidence score
+- Saving prediction history to Supabase
+
+---
+
+# 💻 Frontend (React)
+
+The frontend includes:
+
+- Modern Dark UI
+- Home Page
+- MRI Upload
+- Prediction Results
+- Prediction History
+- Dashboard
+- Model Performance
+- About Page
+- Download PDF Report
+- Print Report
+- Responsive Design
+
+---
+
+# 🗄 Database (Supabase)
+
+Prediction records are automatically stored.
+
+### Table: predictions
+
+| Column | Description |
+|---------|-------------|
+| id | UUID |
+| image_name | MRI filename |
+| prediction | Predicted class |
+| confidence | Prediction confidence |
+| created_at | Timestamp |
+
+---
+
+# 🌐 Backend API
+
+The FastAPI backend exposes REST APIs that power the web application.
+
+Main functionalities include:
+
+- Health Check
+- MRI Image Upload
+- Tumor Prediction
+- AI Explanation
+- Recommendation Generation
+- Prediction History
+- Dashboard Statistics
+- Model Performance
+- PDF Report Generation
+- Supabase Data Storage
+
+> Backend implemented using **FastAPI** with modular routing architecture.
 
 ---
 
 # 🚀 Installation
 
+## Clone Repository
+
 ```bash
-# Clone Repository
 git clone https://github.com/palachakravarthi/brain-tumor-detection-end-to-end.git
+```
 
-# Move to Project Directory
+```bash
 cd BrainTumorProject
+```
 
-# Create Environment
+---
+
+## Create Python Environment
+
+```bash
 conda create -n braintumor python=3.11
+```
 
-# Activate Environment
+```bash
 conda activate braintumor
+```
 
-# Install Dependencies
+---
+
+## Install Backend Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-# ▶️ Run Dataset Analysis
+## Start Backend
 
 ```bash
-python scripts/dataset_analysis.py
+uvicorn app.main:app --reload
+```
+
+Backend:
+
+```
+http://127.0.0.1:8000
 ```
 
 ---
 
-# 📷 Output Gallery
+## Frontend Setup
 
-## Class Distribution
+```bash
+cd frontend/brain-tumor
+```
 
-<img src="outputs/class_distribution.png" width="900">
+Install packages
 
-## Sample MRI Images
+```bash
+npm install
+```
 
-<img src="outputs/sample_mri_images.png" width="900">
+Run application
 
-## MRI Samples
+```bash
+npm run dev
+```
 
-<img src="outputs/augmented_images.png" width="900">
+Frontend:
+
+```
+http://localhost:8081
+```
 
 ---
 
@@ -272,14 +621,6 @@ Contributions are welcome.
 5. Create a Pull Request
 
 ---
-## 🙏 Acknowledgements
-
-This project uses the **Brain Tumor MRI Dataset** created and shared by **Mohibur Rahman Rifat** on Kaggle.
-
-Dataset:
-https://www.kaggle.com/datasets/mohiburrahmanrifat/brain-tumor-mri
-
-Special thanks to the dataset author for making this resource publicly available for research and educational purposes.
 
 # 👨‍💻 Author
 
@@ -303,6 +644,12 @@ This project is licensed under the MIT License.
 ⭐ If you found this project useful, please consider giving it a star.
 </p>
 
-<p align="center">
-Made with ❤️ by Uppu Palachakravarthi
-</p>
+<td align="center">
+<img src="outputs/vgg16_confusion_matrix.png" width="420"><br>
+<b>VGG16</b>
+</td>
+</tr>
+</table>
+
+---
+
