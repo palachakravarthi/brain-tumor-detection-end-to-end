@@ -598,6 +598,7 @@ Frontend:
 
 ```
 http://localhost:8081
+```
 ---
 
 # 🤝 Contributing
